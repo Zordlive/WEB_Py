@@ -7,19 +7,13 @@
         <div>
             {% include 'components/headers.html' %}
         </div>
-            <h1 class="text-3xl font-bold underline">
-                Hello world!
-            </h1>
-            <div>
-                <div x-data="{ open: false }">
-                    <button @click="open = !open">Expand</button>
-                 
-                    <span x-show="open">
-                        Content...
-                    </span>
-                </div>
-
-            </div>
+        <div>
+            {% include 'components/apropos.html' %}
+        </div>       
+        <div>
+            {% include 'components/actualites.html' %}
+        </div>
+            
         <div class="">
             {% include 'components/footer.html' %}
         </div>
